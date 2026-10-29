@@ -1,0 +1,10 @@
+name: Github actions CI
+on: workflow_dispatch
+jobs:
+  test:
+    runs-on: ubuntu-latest
+   
+    steps:
+      - name:  print text 
+        run:  echo "Devops with github actions"
+    
